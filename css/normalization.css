@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* Palette */
+
+    /* Typography */
+    --font-base: 'Raleway'. Courier, monospace;
+    --font-alternative: 'Inter', Helvetica, sans-serif;
+
+    /* Font-sizes */
+    --font-display: 4.6em;
+    --font-jumbo: 3.8em;
+    --font-xlarge: 3em;
+    --font-large: 2.4em;
+    --font-medium: 1.8em;
+    --font-xsmall: 1.2em;
+
+    /* Spacings */
+    --spacing-128: 12.8rem;
+    --spacing-68: 6.8rem;
+    --spacing-36: 3.6rem;
+    --spacing-28: 2.8rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+}
+
+html {
+    font-size: 62.5%; /* => 1em=10px */
+    color: #111111;
+    font-family: var(--font-alternative);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    font-family: inherit;
+    color: inherit;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+p {
+    font-size: 1.9em;
+}
